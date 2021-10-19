@@ -1,0 +1,53 @@
+# Java #
+########
+.settings
+.project
+.classpath
+.gradle
+local.properties
+build/
+
+# RUST #
+########
+debug/
+target/
+cmake-build-*
+build/
+**/*.rs.bk
+
+# CMake #
+#########
+build/
+cmake-build-*
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# IDE related
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+*~
+.*.swp
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
